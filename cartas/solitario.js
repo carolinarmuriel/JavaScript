@@ -52,10 +52,6 @@ function mostrarMesa() {
     img.src = carta.img;
     img.alt = `${carta.nombre} de ${carta.palo}`;
     cartaDiv.appendChild(img);
-    const nombreDiv = document.createElement('div');
-    nombreDiv.className = 'nombre';
-    nombreDiv.textContent = `${carta.nombre} de ${carta.palo}`;
-    cartaDiv.appendChild(nombreDiv);
     mesaDiv.appendChild(cartaDiv);
   });
 }
@@ -80,13 +76,14 @@ function resetBotones() {
   document.getElementById('repartir').disabled = false;
 }
 
+// SOLO UN EVENTO PARA "Barajar"
 document.getElementById('barajar').onclick = () => {
   if (juegoTerminado) {
     juegoTerminado = false;
     resetBotones();
   }
   barajar(mazo);
-  mesa = [];
+  mesa = mazo.slice(0, 7); // Reparte 7 cartas nuevas tras barajar
   mostrarMesa();
 };
 
@@ -121,7 +118,7 @@ document.getElementById('modal-close').onclick = function() {
   document.getElementById('modal').style.display = 'none';
   juegoTerminado = false;
   resetBotones();
-
+  mesa = [];
   mostrarMesa();
 };
 
