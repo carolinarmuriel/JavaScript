@@ -1,8 +1,7 @@
 # 🧮 Contador con Cronómetro en JavaScript
 
 ¡Bienvenido!  
-Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, con un diseño moderno y un cronómetro integrado en formato `hh:mm:ss`.
-
+Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, con un diseño moderno y un cronómetro integrado.
 ---
 
 ## 🚀 Características
