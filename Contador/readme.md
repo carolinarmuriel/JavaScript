@@ -16,12 +16,17 @@ Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, co
 
 ---
 
+## 🖥️ Vista previa
+
+![Vista previa del contador](https://i.imgur.com/8uQwQwT.png)
+
+---
 
 ## 📦 Instalación
 
 1. **Descarga o clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/contador-js.git
+   git clone https://github.com/carolinarmuriel/contador-js.git
    ```
 2. **Abre la carpeta en Visual Studio Code o tu editor favorito.**
 3. **Abre el archivo `index.html` en tu navegador.**
@@ -56,7 +61,7 @@ Contador/
 
 ## 🪐 Autor
 
-**carolinarmurielt**
+**[carolinarmuriel](https://github.com/carolinarmuriel)**
 
 ---
 
