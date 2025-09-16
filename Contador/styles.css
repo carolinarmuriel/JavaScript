@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  background: radial-gradient(ellipse at top left, #23234f 0%, #1e1e2f 100%);
+  color: #fff;
+  margin: 0;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #ffd700;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 12px #23234f88;
+  margin-bottom: 32px;
+}
+
+#valor {
+  font-size: 4em;
+  margin: 30px 0;
+  color: #ffd700;
+  text-shadow: 0 0 24px #ffd70055, 0 2px 12px #23234f88;
+  background: rgba(35,35,79,0.7);
+  border-radius: 18px;
+  padding: 24px 48px;
+  box-shadow: 0 8px 32px #23234f88;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+#valor.changed {
+  animation: pop 0.3s;
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+button {
+  font-size: 1.3em;
+  margin: 12px;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 16px #23234f55;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#sumar { background: linear-gradient(90deg, #4caf50 60%, #81c784 100%); color: #fffbe7; }
+#restar { background: linear-gradient(90deg, #f44336 60%, #ff7961 100%); color: #fffbe7; }
+#reset { background: linear-gradient(90deg, #2196f3 60%, #64b5f6 100%); color: #fffbe7; }
+
+button:hover {
+  opacity: 0.92;
+  box-shadow: 0 8px 32px #ffd70055;
+  transform: translateY(-2px) scale(1.05);
+}
+
+@media (max-width: 600px) {
+  #valor {
+    font-size: 2.2em;
+    padding: 12px 18px;
+  }
+  button {
+    font-size: 1em;
+    padding: 10px 18px;
+  }
+}
