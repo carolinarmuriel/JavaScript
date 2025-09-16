@@ -27,7 +27,7 @@
 
 ## 📊 Estadísticas de GitHub
 
-![Carolina's GitHub stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=radical)
+![Carolina's GitHub stats](https://github-readme-stats.vercel.app/api?username=carolinarmuriel&show_icons=true&theme=radical)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Carolina27&layout=compact&theme=radical)
 
