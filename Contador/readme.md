@@ -1,28 +1,31 @@
 # 🧮 Contador con Cronómetro en JavaScript
 
-¡Bienvenido!  
-Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, con un diseño moderno y un cronómetro integrado.
+Proyecto interactivo de contador y cronómetro hecho en JavaScript, HTML y CSS, con diseño moderno y animaciones.
+
 ---
 
 ## 🚀 Características
 
-- **Sumar y Restar:** Modifica el valor del contador con los botones.
+- **Sumar y Restar:** Modifica el valor del contador.
 - **Reset:** Vuelve el contador a cero.
-- **Cronómetro:** Muestra el tiempo transcurrido en formato horas:minutos:segundos. Puedes iniciar y detener el cronómetro con un solo botón.
-- **Animaciones:** Cada cambio en el contador o cronómetro tiene una animación visual.
-- **Responsive:** Se adapta a dispositivos móviles y escritorio.
-- **Estilo Espacial:** Fondo con estrellas y colores vibrantes.
+- **Cronómetro:** Muestra el tiempo transcurrido en formato `hh:mm:ss`. Inicia y detén con un solo botón.
+- **Animaciones:** Cambios visuales en cada acción.
+- **Responsive:** Adaptado a móviles y escritorio.
+- **Estilo Espacial:** Fondo animado y colores vibrantes.
 
 ---
 
 ## 📦 Instalación
 
-1. **Descarga o clona el repositorio:**
+1. Clona el repositorio:
    ```bash
-   git clone https://github.com/carolinarmuriel/contador-js.git
+   git clone https://github.com/carolinarmuriel/JavaScript.git
    ```
-2. **Abre la carpeta en Visual Studio Code o tu editor favorito.**
-3. **Abre el archivo `index.html` en tu navegador.**
+2. Ve a la carpeta `Contador`:
+   ```bash
+   cd JavaScript/Contador
+   ```
+3. Abre `index.html` en tu navegador.
 
 ---
 
@@ -48,6 +51,8 @@ Contador/
 ## 🪐 Autor
 
 **[carolinarmuriel](https://github.com/carolinarmuriel)**
+
+Repositorio: [github.com/carolinarmuriel/JavaScript/blob/main/Contador](https://github.com/carolinarmuriel/JavaScript/blob/main/Contador)
 
 ---
 
