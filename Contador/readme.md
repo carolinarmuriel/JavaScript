@@ -16,11 +16,6 @@ Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, co
 
 ---
 
-## 🖥️ Vista previa
-
-![Vista previa del contador](https://i.imgur.com/8uQwQwT.png)
-
----
 
 ## 📦 Instalación
 
