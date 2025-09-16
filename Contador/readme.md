@@ -16,12 +16,6 @@ Este proyecto es un **contador interactivo** hecho en JavaScript, HTML y CSS, co
 
 ---
 
-## 🖥️ Vista previa
-
-![Vista previa del contador](https://i.imgur.com/8uQwQwT.png)
-
----
-
 ## 📦 Instalación
 
 1. **Descarga o clona el repositorio:**
@@ -49,13 +43,6 @@ Contador/
 ├── styles.css
 └── script.js
 ```
-
----
-
-## 🎨 Créditos
-
-- Fondo espacial inspirado en [starfield](https://github.com/Julian-Nash/starfield).
-- Iconos Unicode.
 
 ---
 
